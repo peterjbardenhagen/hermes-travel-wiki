@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const PIN = '2595';
+const PIN = '8041';
 
 export default function PinGate({ children }: { children: React.ReactNode }) {
   const [authenticated, setAuthenticated] = useState(false);
@@ -50,7 +50,7 @@ export default function PinGate({ children }: { children: React.ReactNode }) {
           {error && <p style={pinStyles.error}>Incorrect PIN</p>}
           <button type="submit" style={pinStyles.button}>Unlock</button>
         </form>
-        <p style={pinStyles.hint}>Default: 2595</p>
+        <p style={pinStyles.hint}>Default: 8041</p>
       </div>
       <style>{`
         @keyframes shake {
