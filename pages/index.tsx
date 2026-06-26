@@ -166,10 +166,15 @@ const travelHtml = `
 }
 .travel-image-grid img {
   width: 100%;
+  max-width: 100%;
   height: 280px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.travel-hero-image,
+.travel-section-image {
+  max-width: 100%;
 }
 .travel-image-grid.single {
   grid-template-columns: 1fr;
@@ -188,15 +193,40 @@ const travelHtml = `
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-  .overview-grid { grid-template-columns: 1fr; }
+  .travel-body { padding: 0; margin: 0; width: 100%; overflow-x: hidden; }
+  .travel-cover { min-height: auto; padding: 60px 16px; width: 100%; box-sizing: border-box; }
+  .travel-cover-content { max-width: 100%; padding: 0 16px; box-sizing: border-box; }
+  .travel-cover h1 { font-size: clamp(28px, 7vw, 56px); }
+  .travel-cover .details { flex-direction: column; gap: 10px; align-items: center; }
+  .travel-cover .details div { text-align: center; }
+  .travel-section { padding: 40px 16px; max-width: 100%; box-sizing: border-box; }
+  .overview-grid { grid-template-columns: 1fr; gap: 15px; }
   .day-card { flex-direction: column; gap: 15px; }
   .flight-route { flex-direction: column; gap: 10px; }
-  .travel-section { padding: 40px 20px; }
-  .travel-hero-image { height: 280px; }
-  .travel-section-image { height: 240px; }
-  .travel-section-image.tall { height: 320px; }
-  .travel-image-grid { grid-template-columns: 1fr; }
-  .travel-image-grid img { height: 220px; }
+  .flight-city .code { font-size: 22px; }
+  .flight-arrow .line { display: none; }
+  .flight-arrow::after { display: none; }
+  .hotel-grid { grid-template-columns: 1fr; }
+  .travel-hero-image { height: 240px; width: 100%; border-radius: 0; }
+  .travel-section-image { height: 220px; width: 100%; border-radius: 0; margin: 20px 0; }
+  .travel-section-image.tall { height: 280px; }
+  .travel-image-grid { grid-template-columns: 1fr; gap: 12px; }
+  .travel-image-grid img { height: 220px; border-radius: 0; }
+  .travel-image-caption { font-size: 11px; }
+  .suggestions-grid { grid-template-columns: 1fr; }
+  .suggestion { padding: 16px; }
+  .question-list li { padding-left: 50px; font-size: 14px; }
+  .question-list li::before { width: 30px; height: 30px; font-size: 12px; }
+  .price-badge { font-size: 13px; padding: 6px 14px; }
+  .flight-details { font-size: 12px; }
+}
+
+@media (max-width: 480px) {
+  .travel-cover { padding: 40px 12px; }
+  .travel-cover h1 { font-size: 26px; }
+  .travel-section { padding: 30px 12px; }
+  .day-content h4 { font-size: 16px; }
+  .hotel-card-body .price { font-size: 20px; }
 }
 
 /* PRINT */
@@ -230,7 +260,7 @@ const travelHtml = `
 </div>
 
 <!-- HERO IMAGE: Mt. Fuji -->
-<img class="travel-hero-image" src="public/images/mt-fuji.jpg" alt="Mount Fuji with cherry blossoms at sunrise" />
+<img class="travel-hero-image" src="/images/mt-fuji.jpg" alt="Mount Fuji with cherry blossoms at sunrise" />
 <div class="travel-image-caption">Mount Fuji — Japan's sacred icon, framed by early spring blossoms</div>
 
 <!-- TRIP OVERVIEW -->
@@ -252,11 +282,11 @@ const travelHtml = `
 <!-- CHERRY BLOSSOMS + OSAKA CASTLE -->
 <div class="travel-image-grid">
   <div>
-    <img class="travel-section-image" src="public/images/sakura.jpg" alt="Cherry blossoms in full bloom along a Japanese canal" />
+    <img class="travel-section-image" src="/images/sakura.jpg" alt="Cherry blossoms in full bloom along a Japanese canal" />
     <div class="travel-image-caption">Sakura season — nature's fleeting masterpiece</div>
   </div>
   <div>
-    <img class="travel-section-image" src="public/images/osaka-castle.jpg" alt="Osaka Castle with cherry blossoms" />
+    <img class="travel-section-image" src="/images/osaka-castle.jpg" alt="Osaka Castle with cherry blossoms" />
     <div class="travel-image-caption">Osaka Castle — a symbol of Japan's unification</div>
   </div>
 </div>
@@ -271,7 +301,7 @@ const travelHtml = `
     <p><strong>March Grand Sumo Tournament (Haru Basho) tickets</strong> go on sale <strong>February 6–8, 2027</strong> at 10:00 JST. Book instantly at sumo.pia.jp — popular seats vanish within hours.</p>
     <p style="margin-top:8px;">Book <strong>North Zone B or East Zone B</strong> seats (3rd floor) for clear sightlines without being too close. Seats with back support recommended.</p>
   </div>
-  <img class="travel-section-image tall" src="public/images/kaiseki-reference.jpg" alt="Traditional kaiseki multi-course Japanese dinner" />
+  <img class="travel-section-image tall" src="/images/kaiseki-reference.jpg" alt="Traditional kaiseki multi-course Japanese dinner" />
   <div class="travel-image-caption">A 7-course kaiseki dinner — the pinnacle of Japanese culinary artistry. Each dish is a seasonal masterpiece.</div>
   <div class="flight-card">
     <h4>⏰ Within 6 Weeks — Flights</h4>
@@ -289,7 +319,7 @@ const travelHtml = `
 </div>
 
 <!-- HONG KONG STOPOVER IMAGE -->
-<img class="travel-section-image wide" src="public/images/hong-kong.jpg" alt="Hong Kong skyline and Victoria Harbour" />
+<img class="travel-section-image wide" src="/images/hong-kong.jpg" alt="Hong Kong skyline and Victoria Harbour" />
 <div class="travel-image-caption">Victoria Harbour — your gateway to Asia, 3 nights in vibrant Hong Kong</div>
 
 <!-- OPTION 1: LUXURY -->
@@ -318,11 +348,11 @@ const travelHtml = `
 <!-- TOKYO + SHINKANSEN IMAGES -->
 <div class="travel-image-grid">
   <div>
-    <img class="travel-section-image" src="public/images/tokyo-night.jpg" alt="Tokyo Shibuya crossing at night with neon lights" />
+    <img class="travel-section-image" src="/images/tokyo-night.jpg" alt="Tokyo Shibuya crossing at night with neon lights" />
     <div class="travel-image-caption">Shibuya Crossing — the beating heart of Tokyo after dark</div>
   </div>
   <div>
-    <img class="travel-section-image" src="public/images/shinkansen.jpg" alt="Japanese Shinkansen bullet trains lined up at depot" />
+    <img class="travel-section-image" src="/images/shinkansen.jpg" alt="Japanese Shinkansen bullet trains lined up at depot" />
     <div class="travel-image-caption">Shinkansen E5 Series — engineering perfection at 320 km/h</div>
   </div>
 </div>
@@ -332,11 +362,11 @@ const travelHtml = `
 <!-- KYOTO IMAGES: Golden Pavilion + Fushimi Inari -->
 <div class="travel-image-grid">
   <div>
-    <img class="travel-section-image tall" src="public/images/kyoto-golden.jpg" alt="Golden Pavilion Kinkaku-ji reflected in pond" />
+    <img class="travel-section-image tall" src="/images/kyoto-golden.jpg" alt="Golden Pavilion Kinkaku-ji reflected in pond" />
     <div class="travel-image-caption">Kinkaku-ji — the Golden Pavilion, Kyoto's most beloved temple</div>
   </div>
   <div>
-    <img class="travel-section-image tall" src="public/images/fushimi-inari.jpg" alt="Thousands of vermillion torii gates at Fushimi Inari shrine" />
+    <img class="travel-section-image tall" src="/images/fushimi-inari.jpg" alt="Thousands of vermillion torii gates at Fushimi Inari shrine" />
     <div class="travel-image-caption">Fushimi Inari — 10,000 torii gates winding up the sacred mountain</div>
   </div>
 </div></div>
