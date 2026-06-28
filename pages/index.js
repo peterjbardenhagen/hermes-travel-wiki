@@ -14,7 +14,7 @@ const EXPERIENCES = [
     duration: "2 hours",
     bookingUrl: "https://www.hamonryu.com/",
     tips: "Book 2 weeks ahead. Take home your own lacquerware piece.",
-    image: "https://images.unsplash.com/photo-1624470258438-7c3af72cffa9?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const EXPERIENCES = [
     duration: "2–3 hours",
     bookingUrl: "https://www.yodobashi.com/",
     tips: "Floor 6 has the best camera deals. Tax-free counter on floor 2.",
-    image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const EXPERIENCES = [
     duration: "1–2 hours",
     bookingUrl: "https://www.gotokyo.org/",
     tips: "Visit early (9am) to avoid crowds. Detour to Cat Street for higher-end fashion.",
-    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const EXPERIENCES = [
     duration: "90 minutes",
     bookingUrl: "https://www.byfood.com/",
     tips: "Arrive by 8am for the freshest sushi breakfast. Try the bamboo charcoal tamagoyaki.",
-    image: "https://images.unsplash.com/photo-1580748141549-71748dbe0bdc?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ const EXPERIENCES = [
     duration: "1 hour",
     bookingUrl: "https://www.superpotato.com/",
     tips: "Top floor is a small arcade. Game prices are often better than eBay.",
-    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 6,
@@ -84,7 +84,7 @@ const EXPERIENCES = [
     duration: "30–60 minutes",
     bookingUrl: "https://www.sumo.or.jp/",
     tips: "Stand quietly across the street. Practice starts ~7am. Feb tournament at Ryogoku Kokugikan.",
-    image: "https://images.unsplash.com/photo-1541544741302-562e27b7e017?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1541544741302-562e27b7e017?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 7,
@@ -98,7 +98,7 @@ const EXPERIENCES = [
     duration: "45 minutes",
     bookingUrl: "https://www.shibuya-scramble-square.com/",
     tips: "Book sunset time slot. Rooftop netting is the best photo spot in Tokyo.",
-    image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 8,
@@ -112,7 +112,7 @@ const EXPERIENCES = [
     duration: "30–60 minutes per shop",
     bookingUrl: "https://www.jrn.or.jp/",
     tips: "Open late (until 11pm). Take underground passage from Tokyo Station.",
-    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 9,
@@ -126,7 +126,7 @@ const EXPERIENCES = [
     duration: "1–2.5 hours",
     bookingUrl: "https://www.kabukiweb.net/",
     tips: "Buy same-day single-act tickets. English headsets available. No dress code.",
-    image: "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 10,
@@ -140,7 +140,7 @@ const EXPERIENCES = [
     duration: "2.5 hours",
     bookingUrl: "https://www.meiji.co.jp/",
     tips: "Weeks advance booking essential. Beautiful Tama River valley views.",
-    image: "https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 11,
@@ -154,7 +154,7 @@ const EXPERIENCES = [
     duration: "1 hour",
     bookingUrl: "https://www.kyuo-gion.co.jp/",
     tips: "Book online for best seats. Meet at Gion ticket counter at 7pm.",
-    image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 12,
@@ -168,7 +168,7 @@ const EXPERIENCES = [
     duration: "1–2 hours",
     bookingUrl: "https://www.nintendo.co.jp/",
     tips: "Floor 6 of Shibuya Parco. Mario Café next door needs advance reservation.",
-    image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 13,
@@ -182,7 +182,7 @@ const EXPERIENCES = [
     duration: "2–3 hours round trip",
     bookingUrl: "https://www.yamadera.co.jp/",
     tips: "Wear good shoes. The climb is steep but the view from Godaido Hall is unforgettable.",
-    image: "https://images.unsplash.com/photo-1578468928040-ed54e9188b4a?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1578468928040-ed54e9188b4a?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 14,
@@ -196,7 +196,7 @@ const EXPERIENCES = [
     duration: "45 minutes",
     bookingUrl: "https://www.akindo-sushiro.co.jp/",
     tips: "Kura Sushi has a gacha game for every 5 plates. Sushiro app shows wait times.",
-    image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 15,
@@ -210,7 +210,7 @@ const EXPERIENCES = [
     duration: "1 hour",
     bookingUrl: "https://www.japan-guide.com/",
     tips: "Best in the morning (9am). Try melon pan and ningyo-yaki. Senso-ji is free and open 24/7.",
-    image: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 16,
@@ -224,7 +224,7 @@ const EXPERIENCES = [
     duration: "1.5–2 hours",
     bookingUrl: "https://www.inma.co.jp/",
     tips: "The indigo dyeing workshop is most popular. Book 3 days ahead.",
-    image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 17,
@@ -238,7 +238,7 @@ const EXPERIENCES = [
     duration: "1 hour",
     bookingUrl: "https://www.okonomimura.co.jp/",
     tips: "Floor 2 has the most variety. Hiroshima style means layered, not mixed.",
-    image: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 18,
@@ -252,7 +252,7 @@ const EXPERIENCES = [
     duration: "1–2 hours",
     bookingUrl: "https://www.meijijingu.or.jp/",
     tips: "Go early (before 9am) for solitude. The sake barrel wall is a great photo spot.",
-    image: "https://images.unsplash.com/photo-1583766395091-2eb9994ed094?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1583766395091-2eb9994ed094?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 19,
@@ -266,7 +266,7 @@ const EXPERIENCES = [
     duration: "1.5–2 hours",
     bookingUrl: "https://www.mori.art.museum/",
     tips: "Check exhibition schedule online. Sky Deck (¥500 extra) has open-air views.",
-    image: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 20,
@@ -280,7 +280,7 @@ const EXPERIENCES = [
     duration: "1–2 hours",
     bookingUrl: "https://www.japan-guide.com/e/e2357.html",
     tips: "Go after 6pm. The narrowest alley (west side) has the best spots. Cash only.",
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 21,
@@ -294,7 +294,7 @@ const EXPERIENCES = [
     duration: "Half day",
     bookingUrl: "https://www.kawagoe.or.jp/",
     tips: "Visit on a weekday. Candy Alley (Kashiya Yokocho) has 20+ traditional sweet shops.",
-    image: "https://images.unsplash.com/photo-1578468928040-ed54e9188b4a?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1578468928040-ed54e9188b4a?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 22,
@@ -308,7 +308,7 @@ const EXPERIENCES = [
     duration: "2–3 hours",
     bookingUrl: "https://www.japan-guide.com/e/e3912.html",
     tips: "Arrive by 7am for near-empty paths. Tenryu-ji opens 8:30am — perfect combo.",
-    image: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 23,
@@ -322,7 +322,7 @@ const EXPERIENCES = [
     duration: "45 minutes",
     bookingUrl: "https://www.sonos.com/",
     tips: "Bring your own music. The Sonos Arc demo is worth experiencing.",
-    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 24,
@@ -336,7 +336,7 @@ const EXPERIENCES = [
     duration: "2 hours",
     bookingUrl: "https://www.kobe-niku.jp/",
     tips: "Book 1 month ahead. Lunch sets are 40% cheaper. The fat melts just above body temperature.",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80&auto=format&fit=crop"
   },
   {
     id: 25,
@@ -350,7 +350,7 @@ const EXPERIENCES = [
     duration: "1.5–2 hours",
     bookingUrl: "https://www.teamlab.art/e/planets/",
     tips: "Book 2+ weeks ahead. Wear shorts (you wade through water). No photos — just be present.",
-    image: "https://images.unsplash.com/photo-1549490349-8643362247b5?w=1200&q=85&auto=format"
+    image: "https://images.unsplash.com/photo-1549490349-8643362247b5?w=1200&q=80&auto=format&fit=crop"
   },
 ]
 
@@ -491,7 +491,7 @@ export default function Home() {
     <>
       <Head>
         <title>Hermes PJB Travel \u2014 Japan in Bloom March 2027</title>
-        <meta name="description" content="A premium travel guide for Mum and Dad's 3-week adventure in Japan" />
+        <meta name="description" content="A premium travel guide for Mummy & Dad da Man's 3-week adventure in Japan" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -523,14 +523,14 @@ export default function Home() {
             <br />
             March 2027
           </h1>
-          <p style={styles.heroSubtitle}>A travel guide for Mum &amp; Dad\u2019s 3-week adventure in Japan</p>
+          <p style={styles.heroSubtitle}>A travel guide for Mummy &amp; Dad da Man\u2019s 3-week adventure in Japan</p>
           <div style={styles.heroDetails}>
             <div>\ud83c\uddfE <span>Osaka</span> \u00b7 <span>Tokyo</span> \u00b7 <span>Kyoto</span> \u00b7 <span>Hiroshima</span> \u00b7 <span>Kanazawa</span></div>
             <div>\ud83d\udcc5 <span>21 Days</span></div>
             <div>\ud83c\udf38 <span>Early Cherry Blossoms</span></div>
             <div>\ud83d\udddd\ufe0f <span>March 7\u201328, 2027</span></div>
           </div>
-          <div style={styles.heroCredit}>Prepared with \u2764 by Petey \u00b7 June 2026</div>
+          <div style={styles.heroCredit}>Prepared with \u2764 by Mr P:JB \u00b7 Hermes \u00b7 June 2026</div>
         </div>
       </div>
 
@@ -740,7 +740,7 @@ export default function Home() {
           <span style={styles.footerLogoMain}>HERMES PJB TRAVEL</span>
         </div>
         <p style={{ marginTop: "20px", color: "rgba(255,255,255,0.5)", fontSize: "13px" }}>Travel advice prepared with love</p>
-        <p style={{ marginTop: "10px", color: "rgba(255,255,255,0.3)", fontSize: "11px" }}>Made with \u2764 by Petey \u00b7 June 2026 \u00b7 Information subject to change</p>
+        <p style={{ marginTop: "10px", color: "rgba(255,255,255,0.3)", fontSize: "11px" }}>Made with \u2764 by Mr P:JB \u00b7 Hermes \u00b7 June 2026 \u00b7 Information subject to change</p>
       </footer>
 
       {/* FULL SCREEN MODAL */}
@@ -797,7 +797,7 @@ export default function Home() {
                 </div>
               </div>
               <a href={currentItem.bookingUrl} target="_blank" rel="noopener noreferrer" style={styles.modalCta}>
-                Book / Learn More \u2192
+                Book / Learn More →
               </a>
             </div>
           </div>
@@ -881,7 +881,7 @@ const styles = {
   cardPrice: { fontSize: "12px", color: "#1a3a5c", fontWeight: 600 },
   tipsGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" },
   tipCard: { background: "rgba(255,255,255,0.7)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.8)", borderRadius: "20px", padding: "28px", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" },
-  tipIcon: { fontSize: "28px", marginBottom: "12px" },
+  tipIcon: { fontSize: "48px", marginBottom: "12px" },
   tipTitle: { fontSize: "16px", color: "#1a3a5c", marginBottom: "8px", fontWeight: 600 },
   tipDesc: { fontSize: "13px", color: "#64748b", lineHeight: 1.6 },
   footer: { background: "linear-gradient(135deg, #0a1628 0%, #1a3a5c 100%)", color: "white", textAlign: "center", padding: "80px 40px" },
